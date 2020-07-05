@@ -6,7 +6,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeShipSmallShieldGeneratorBase</SubtypeId>
       </Id>
-      <DisplayName>Small Shield Generator</DisplayName>
+      <DisplayName>小型护盾发生器</DisplayName>
       <Icon>Textures\Icons\Shield.Small_Large_icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -52,7 +52,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>LargeShipLargeShieldGeneratorBase</SubtypeId>
       </Id>
-      <DisplayName>Large Shield Generator</DisplayName>
+      <DisplayName>大型护盾发生器</DisplayName>
       <Icon>Textures\Icons\Shield.Large_Large_icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -99,7 +99,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>SmallShipSmallShieldGeneratorBase</SubtypeId>
       </Id>
-      <DisplayName>Large Shield Generator</DisplayName>
+      <DisplayName>大型护盾发生器</DisplayName>
       <Icon>Textures\Icons\Shield.Large_Small_icon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -146,7 +146,7 @@
         <TypeId>Refinery</TypeId>
         <SubtypeId>SmallShipMicroShieldGeneratorBase</SubtypeId>
       </Id>
-      <DisplayName>Small Shield Generator</DisplayName>
+      <DisplayName>小型护盾发生器</DisplayName>
       <Icon>Textures\Icons\Shield.Small_Small_icon.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -193,7 +193,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>ShieldCapacitor</SubtypeId>
       </Id>
-      <DisplayName>Shield Capacitor</DisplayName>
+      <DisplayName>护盾电容</DisplayName>
       <Icon>Textures\Icons\Module.Strength_Large_icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -241,7 +241,7 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>ShieldFluxCoil</SubtypeId>
       </Id>
-      <DisplayName>Shield Flux Coil</DisplayName>
+      <DisplayName>护盾线圈</DisplayName>
       <Icon>Textures\Icons\Module.Recharge_Large_icon.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
