@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ResearchGroups>
+        <ResearchGroup xsi:type="ResearchGroup">
+            <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="ShieldGeneratorGroup"/>
+            <Members>
+                <BlockId Type="MyObjectBuilder_Refinery" Subtype="LargeShipSmallShieldGeneratorBase"/>
+                <BlockId Type="MyObjectBuilder_Refinery" Subtype="LargeShipLargeShieldGeneratorBase"/>
+                <BlockId Type="MyObjectBuilder_Refinery" Subtype="SmallShipSmallShieldGeneratorBase"/>
+                <BlockId Type="MyObjectBuilder_Refinery" Subtype="SmallShipMicroShieldGeneratorBase"/>
+                <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="ShieldCapacitor"/>
+                <BlockId Type="MyObjectBuilder_UpgradeModule" Subtype="ShieldFluxCoil"/>
+            </Members>
+        </ResearchGroup>
+    </ResearchGroups>
+</Definitions>

@@ -344,7 +344,7 @@ namespace Cython.EnergyShields
 
                     }
 
-                    info.Append("Ship Shield: ");
+                    info.Append("总护盾: ");
                     MyValueFormatter.AppendGenericInBestUnit(shipCurrentShieldPoints, info);
                     info.Append("Pt/");
                     MyValueFormatter.AppendGenericInBestUnit(shipMaximumShieldPoints, info);
@@ -353,13 +353,13 @@ namespace Cython.EnergyShields
 
                 }
 
-                info.Append("Local Shield: ");
+                info.Append("此护盾: ");
                 MyValueFormatter.AppendGenericInBestUnit(m_currentShieldPoints, info);
                 info.Append("Pt/");
                 MyValueFormatter.AppendGenericInBestUnit(m_maximumShieldPoints, info);
                 info.Append("Pt\n");
 
-                info.Append("Recharge: ");
+                info.Append("充能: ");
                 MyValueFormatter.AppendGenericInBestUnit(m_pointsToRecharge * 60, info);
                 info.Append("Pt/s ");
                 if (EnergyShieldsCore.Config.AlternativeRechargeMode.Enable && (m_ticksUntilRecharge > 0))
@@ -371,7 +371,7 @@ namespace Cython.EnergyShields
                     info.Append("\n");
                 }
 
-                info.Append("Effectivity: ");
+                info.Append("有效性: ");
                 MyValueFormatter.AppendWorkInBestUnit(m_currentPowerConsumption, info);
                 info.Append("/");
                 MyValueFormatter.AppendWorkInBestUnit(m_setPowerConsumption, info);

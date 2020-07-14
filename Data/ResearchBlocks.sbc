@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <ResearchBlocks>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Refinery" Subtype="LargeShipSmallShieldGeneratorBase"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Refinery" Subtype="LargeShipLargeShieldGeneratorBase"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Refinery" Subtype="SmallShipSmallShieldGeneratorBase"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_Refinery" Subtype="SmallShipMicroShieldGeneratorBase"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_UpgradeModule" Subtype="ShieldCapacitor"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+        <ResearchBlock xsi:type="ResearchBlock">
+            <Id Type="MyObjectBuilder_UpgradeModule" Subtype="ShieldFluxCoil"/>
+            <UnlockedByGroups>
+                <GroupSubtype>26</GroupSubtype> <!-- GravityGenerator -->
+            </UnlockedByGroups>
+        </ResearchBlock>
+    </ResearchBlocks>
+</Definitions>
